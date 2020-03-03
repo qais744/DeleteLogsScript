@@ -4,3 +4,5 @@ Some of the systems will keep updating the modification date timestamp of their 
 But log files are normally named with their creation date like "20200301.log", here is a Python script that takes the creation date from the log file name and compares it with the current date to if the log file should be deleted or not.
 
 Then you can put this script in a crontab (:
+
+Note: the number of days and the path must me provided
